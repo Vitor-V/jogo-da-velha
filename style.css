@@ -1,0 +1,63 @@
+body {
+    background: black;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.top {
+    background: grey;
+    width: 255px;
+    height: 50px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+.container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #b0b0b0;
+}
+
+.table {
+    width: 235px;
+    height: 275px;
+    background: #4f4f4f;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.restart {
+    width: 150px;
+    font-family: inherit;
+    border: 5px outset grey;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.restart:hover{
+    background-color: #363636;
+    color: white;
+}
